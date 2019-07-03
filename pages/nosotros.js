@@ -1,10 +1,9 @@
-import Navegacion from '../components/Navegacion';
+import MasterPage from '../components/Master';
 
 const Nosotros = () => (
-  <div>
-    <Navegacion />
+  <MasterPage>
     <p>Hola desde nosotros</p>
-  </div>
+  </MasterPage>
 )
 
 
