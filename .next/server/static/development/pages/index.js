@@ -324,7 +324,56 @@ var Precio = function Precio(props) {
       lineNumber: 12
     },
     __self: this
-  }, "Precio actual: ", price, " $")));
+  }, "Precio actual: ", price, " $"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "d-md-flex justify-content-between",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "card-text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "font-weight-bold",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, "\xDAltima hora: "), percent_change_1h, " %"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "card-text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "font-weight-bold",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, "\xDAltimas 24 horas: "), percent_change_24h, " %"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "card-text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "font-weight-bold",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, "\xDAltimos 7 d\xEDas:"), " ", percent_change_7d, " %"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Precio);
